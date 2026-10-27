@@ -1,0 +1,153 @@
+[
+  {
+    "id": "classic",
+    "name": "Hogwarts Classic",
+    "rarity": "common",
+    "price": 0,
+    "desc": "The first-year serpent: mossy scales and a house scarf.",
+    "snake": { "base": "#3c7a48", "light": "#8cc984", "dark": "#18351f", "scale": "rgba(12,34,18,.34)", "eye": "#ffcf4a" },
+    "robe": { "main": "#8f1f2e", "deep": "#4b0c18", "accent": "#e7c574", "letter": "G" },
+    "hat": "wizard", "eyes": "round", "glasses": false, "glow": "rgba(230,80,70,.2)"
+  },
+  {
+    "id": "slytherin",
+    "name": "Slytherin Regalia",
+    "rarity": "common",
+    "price": 750,
+    "desc": "Silver thread, emerald scales, and an air of ambition.",
+    "snake": { "base": "#24633f", "light": "#79bd8b", "dark": "#082418", "scale": "rgba(5,28,15,.42)", "eye": "#d7f06a" },
+    "robe": { "main": "#155c3e", "deep": "#062719", "accent": "#d6e4d0", "letter": "S" },
+    "hat": "wizard", "eyes": "slit", "glasses": false, "glow": "rgba(70,220,140,.22)"
+  },
+  {
+    "id": "phoenix",
+    "name": "Phoenix Ember",
+    "rarity": "rare",
+    "price": 1500,
+    "desc": "Born again in gold and flame. The ashes never quite settle.",
+    "snake": { "base": "#c45122", "light": "#ffc15c", "dark": "#5c120b", "scale": "rgba(90,18,8,.35)", "eye": "#fff0a6" },
+    "robe": { "main": "#a92e1e", "deep": "#4d0907", "accent": "#ffd16a", "letter": "P" },
+    "hat": "crown", "eyes": "glow", "glasses": false, "glow": "rgba(255,140,50,.28)"
+  },
+  {
+    "id": "frost",
+    "name": "Frost Serpent",
+    "rarity": "rare",
+    "price": 2500,
+    "desc": "Ice creeps along every scale, and the air turns to mist.",
+    "snake": { "base": "#4e8ba8", "light": "#c6f0ff", "dark": "#12364d", "scale": "rgba(220,250,255,.24)", "eye": "#c9fbff" },
+    "robe": { "main": "#2b6384", "deep": "#0c2334", "accent": "#d8f6ff", "letter": "F" },
+    "hat": "hood", "eyes": "glow", "glasses": false, "glow": "rgba(140,230,255,.24)"
+  },
+  {
+    "id": "basilisk",
+    "name": "Basilisk",
+    "rarity": "epic",
+    "price": 4000,
+    "desc": "The king beneath the school. Do not meet its gaze.",
+    "snake": { "base": "#194c31", "light": "#57b36e", "dark": "#03150c", "scale": "rgba(120,255,160,.17)", "eye": "#a8ff73" },
+    "robe": { "main": "#0d2b1d", "deep": "#03100a", "accent": "#5fe69a", "letter": "B" },
+    "hat": "horns", "eyes": "slit", "glasses": false, "glow": "rgba(70,255,140,.24)"
+  },
+  {
+    "id": "dementor",
+    "name": "Dementor Shade",
+    "rarity": "epic",
+    "price": 6000,
+    "desc": "The warmth leaves the room before you see it move.",
+    "snake": { "base": "#343945", "light": "#8992a4", "dark": "#0b0d12", "scale": "rgba(210,220,255,.12)", "eye": "#b8dcff" },
+    "robe": { "main": "#161822", "deep": "#050609", "accent": "#8595b8", "letter": "D" },
+    "hat": "hood", "eyes": "glow", "glasses": false, "glow": "rgba(110,150,255,.16)"
+  },
+  {
+    "id": "dragon",
+    "name": "Dragonfire",
+    "rarity": "epic",
+    "price": 9000,
+    "desc": "A Hungarian Horntail in miniature. Mostly.",
+    "snake": { "base": "#7f2418", "light": "#ef7b38", "dark": "#2e0705", "scale": "rgba(255,170,80,.16)", "eye": "#ffd15c" },
+    "robe": { "main": "#5b1712", "deep": "#1c0504", "accent": "#ff9a4d", "letter": "D" },
+    "hat": "horns", "eyes": "slit", "glasses": false, "glow": "rgba(255,100,50,.25)"
+  },
+  {
+    "id": "niffler",
+    "name": "Niffler Gold",
+    "rarity": "rare",
+    "price": 12000,
+    "desc": "Shiny. So very shiny. Your pockets are already lighter.",
+    "snake": { "base": "#88632f", "light": "#f0cc7a", "dark": "#33210b", "scale": "rgba(255,230,150,.22)", "eye": "#fff3a8" },
+    "robe": { "main": "#6b491d", "deep": "#2a1b07", "accent": "#ffd875", "letter": "N" },
+    "hat": "none", "eyes": "round", "glasses": false, "glow": "rgba(255,210,90,.22)"
+  },
+  {
+    "id": "moon",
+    "name": "Moonlit Seer",
+    "rarity": "epic",
+    "price": 16000,
+    "desc": "Pale scales catch the light of a moon only you can see.",
+    "snake": { "base": "#637aa8", "light": "#d9e5ff", "dark": "#202a4d", "scale": "rgba(230,240,255,.22)", "eye": "#e7ecff" },
+    "robe": { "main": "#28325c", "deep": "#0a0e21", "accent": "#cfd9ff", "letter": "M" },
+    "hat": "crown", "eyes": "glow", "glasses": true, "glow": "rgba(150,180,255,.22)"
+  },
+  {
+    "id": "quidditch",
+    "name": "Quidditch Star",
+    "rarity": "epic",
+    "price": 22000,
+    "desc": "Scarlet robes, gold trim, and absolutely no regard for gravity.",
+    "snake": { "base": "#9b3327", "light": "#ffb262", "dark": "#3d0d09", "scale": "rgba(255,210,150,.18)", "eye": "#ffd45e" },
+    "robe": { "main": "#a32626", "deep": "#410909", "accent": "#ffd05e", "letter": "Q" },
+    "hat": "none", "eyes": "round", "glasses": true, "glow": "rgba(255,150,60,.2)"
+  },
+  {
+    "id": "time",
+    "name": "Time Turner",
+    "rarity": "legendary",
+    "price": 30000,
+    "desc": "A serpent out of sequence. It has already eaten what you are about to offer.",
+    "snake": { "base": "#7e6035", "light": "#f5d69b", "dark": "#2e2210", "scale": "rgba(150,255,230,.18)", "eye": "#8fffe0" },
+    "robe": { "main": "#225c5b", "deep": "#082423", "accent": "#e7c574", "letter": "T" },
+    "hat": "tophat", "eyes": "glow", "glasses": true, "glow": "rgba(100,255,220,.22)"
+  },
+  {
+    "id": "forest",
+    "name": "Forbidden Forest",
+    "rarity": "rare",
+    "price": 40000,
+    "desc": "Moss, antlers, and the feeling of being watched.",
+    "snake": { "base": "#3f5a2b", "light": "#9fc06a", "dark": "#14200c", "scale": "rgba(190,240,120,.17)", "eye": "#d8ff86" },
+    "robe": { "main": "#2f4a22", "deep": "#0e1908", "accent": "#b8d487", "letter": "F" },
+    "hat": "horns", "eyes": "round", "glasses": false, "glow": "rgba(140,220,100,.2)"
+  },
+  {
+    "id": "shadow",
+    "name": "Shadow Wyrm",
+    "rarity": "legendary",
+    "price": 55000,
+    "desc": "A shape cut out of the dark, wearing purple fire.",
+    "snake": { "base": "#2c1d45", "light": "#8a5cd1", "dark": "#08040f", "scale": "rgba(190,120,255,.18)", "eye": "#d8a8ff" },
+    "robe": { "main": "#231435", "deep": "#08030d", "accent": "#b57aff", "letter": "W" },
+    "hat": "hood", "eyes": "glow", "glasses": false, "glow": "rgba(160,90,255,.24)"
+  },
+  {
+    "id": "royal",
+    "name": "Royal Occamy",
+    "rarity": "legendary",
+    "price": 80000,
+    "desc": "A serpent of impossible colours, wearing a crown it never earned.",
+    "snake": { "base": "#6e4c9c", "light": "#f1d7ff", "dark": "#25133d", "scale": "rgba(255,240,180,.2)", "eye": "#ffe58a" },
+    "robe": { "main": "#4c2b72", "deep": "#170b29", "accent": "#ffdf8a", "letter": "R" },
+    "hat": "crown", "eyes": "glow", "glasses": true, "glow": "rgba(210,160,255,.25)"
+  },
+  {
+    "id": "headmaster",
+    "name": "Headmaster",
+    "rarity": "admin",
+    "price": 0,
+    "admin_only": true,
+    "desc": "The office recognizes its own. Reserved for the administrator.",
+    "snake": { "base": "#5a3a78", "light": "#d6b7ff", "dark": "#1b0d2b", "scale": "rgba(255,220,140,.2)", "eye": "#ffe18a" },
+    "robe": { "main": "#3b2258", "deep": "#100820", "accent": "#f0d184", "letter": "H" },
+    "hat": "wizard", "eyes": "glow", "glasses": true, "glow": "rgba(220,180,255,.26)"
+  }
+]

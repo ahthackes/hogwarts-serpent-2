@@ -1,0 +1,23 @@
+[Unit]
+Description=Hogwarts Serpent game server
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=hogwarts
+Group=hogwarts
+WorkingDirectory=/opt/hogwarts-serpent
+EnvironmentFile=/etc/hogwarts-serpent.env
+ExecStart=/usr/bin/python3 /opt/hogwarts-serpent/server.py
+Restart=on-failure
+RestartSec=3
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/hogwarts-serpent
+UMask=0077
+
+[Install]
+WantedBy=multi-user.target

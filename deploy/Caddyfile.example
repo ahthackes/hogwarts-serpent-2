@@ -1,0 +1,6 @@
+# Replace this name with your DuckDNS hostname or your own domain.
+# Caddy will obtain and renew the HTTPS certificate automatically.
+hogwarts-serpent.duckdns.org {
+    encode gzip
+    reverse_proxy 127.0.0.1:8123
+}
